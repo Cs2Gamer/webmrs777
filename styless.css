@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+h2 {
+    color: #333;
+}
+
+details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+details summary {
+    font-weight: bold;
+}
+
+/* Yashirish */
+.content-section {
+    display: none;
+}
+
+/* Tanlangan bo'limni ko'rsatish */
+.content-section.active {
+    display: block;
+}
